@@ -47,8 +47,8 @@
 .header-icon{
     width: 26px;
     height: 26px;
-    stroke: #000;
-    stroke-width: 1.5;
+    stroke: red;
+    stroke-width: 2;
 }
 
 .header button{
