@@ -1,0 +1,35 @@
+/* Basic Reset */
+*, 
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.document{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header-row{
+    width: 100%;
+}
+.header-row p{
+    margin: auto;
+}
+
+.logo-link{
+    margin: auto;
+}
+
+.search-btn{
+    margin-right: 1rem;
+}
