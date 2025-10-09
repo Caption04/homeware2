@@ -21,6 +21,7 @@
 
 .header-row{
     width: 100%;
+    padding: 0.3em 0.6em
 }
 .header-row p{
     margin: auto;
@@ -31,5 +32,5 @@
 }
 
 .search-btn{
-    margin-right: 1rem;
+    margin-right: 1em;
 }
