@@ -27,10 +27,12 @@
 }
 .header-row:first-of-type{
     background: #1390e2;
+    padding: 0.5em 1em;
 }
 .header-row .header-text{
     margin: auto;
     font-size: clamp(12px, 0.1rem + 2vw, 18px);
+    font-weight: bold;
 }
 .logo-link{
     margin: auto;
