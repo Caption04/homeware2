@@ -58,3 +58,10 @@
     border-style: none;
     cursor: pointer;
 }
+
+.content{
+    background-image: url("data.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
