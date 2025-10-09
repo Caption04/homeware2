@@ -31,7 +31,7 @@
 }
 .header-row .header-text{
     margin: auto;
-    font-size: clamp(12px, 0.1rem + 2vw, 18px);
+    font-size: clamp(12px, 0.1rem + 2vw, 16px);
     font-weight: bold;
 }
 .logo-link{
