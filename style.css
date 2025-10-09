@@ -23,9 +23,14 @@
     width: 100%;
     padding: 0.3em 0.6em;
     display: flex;
+    align-items: center;
+}
+.header-row:first-of-type{
+    background: #1390e2;
 }
 .header-row .header-text{
     margin: auto;
+    /* font-size: 16px; */
 }
 .logo-link{
     margin: auto;
@@ -43,4 +48,9 @@
     width: 24px;
     height: 24px;
     stroke: #000;
+}
+
+.header button{
+    background: none;
+    border-style: none;
 }
