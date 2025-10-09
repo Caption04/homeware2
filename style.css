@@ -31,10 +31,16 @@
     margin: auto;
 }
 .logo-link img{
-    width: 10vw;;
+    width: 10vw;
+    min-width: 100px;
     height: auto;
 }
-
 .search-btn{
     margin-right: 1em;
+}
+
+.header-icon{
+    width: 24px;
+    height: 24px;
+    stroke: #000;
 }
