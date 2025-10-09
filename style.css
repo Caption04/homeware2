@@ -21,14 +21,18 @@
 
 .header-row{
     width: 100%;
-    padding: 0.3em 0.6em
+    padding: 0.3em 0.6em;
+    display: flex;
 }
-.header-row p{
+.header-row .header-text{
     margin: auto;
 }
-
 .logo-link{
     margin: auto;
+}
+.logo-link img{
+    width: 10vw;;
+    height: auto;
 }
 
 .search-btn{
