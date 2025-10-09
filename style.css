@@ -45,9 +45,9 @@
 }
 
 .header-icon{
-    width: 40px;
-    height: 40px;
-    stroke: red;
+    width: 32px;
+    height: 32px;
+    stroke: #000;
     stroke-width: 2;
 }
 
