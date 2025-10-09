@@ -56,4 +56,5 @@
 .header button{
     background: none;
     border-style: none;
+    cursor: pointer;
 }
