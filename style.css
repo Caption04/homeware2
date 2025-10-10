@@ -53,7 +53,7 @@
     stroke-width: 1;
 }
 .cart-icon{
-    stroke-width: 2
+    stroke-width: 2 !important;
 }
 .header button{
     background: none;
