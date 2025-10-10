@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
+    padding: 1em 2em;
 }
 
 .header-row{
@@ -65,7 +66,6 @@
     stroke-width: 1;
 }
 .open-icon{
-    margin-right: auto;
     width: 36px;
     height: 36px;
 }
@@ -79,6 +79,10 @@
     background: none;
     border-style: none;
     cursor: pointer;
+}
+
+.menu-open-btn{
+    margin-right: auto;
 }
 
 .content{
