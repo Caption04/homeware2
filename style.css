@@ -40,7 +40,7 @@
 
 .header-row:last-of-type{
     position: relative;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
 }
 .header-row .header-text{
     margin: auto;
