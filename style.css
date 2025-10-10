@@ -24,6 +24,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+    position: relative;
 }
 
 .header-row{
@@ -43,7 +44,10 @@
     font-family: var(--ff-primary-);
 }
 .logo-link{
-    margin: auto;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .logo-link img{
     width: 10vw;
@@ -61,6 +65,7 @@
     stroke-width: 1;
 }
 .open-icon{
+    margin-right: auto;
     width: 36px;
     height: 36px;
 }
