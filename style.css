@@ -49,11 +49,11 @@
 .header-icon{
     width: 28px;
     height: 28px;
-    stroke: green;
+    stroke: #000;
     stroke-width: 1;
 }
 .search-icon{
-    transform: translateY(3px);
+    transform: translateY(2px);
 }
 .cart-icon{
     stroke-width: 2 !important;
