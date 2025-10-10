@@ -24,8 +24,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    position: relative;
-    padding: 1em 2em;
+
 }
 
 .header-row{
@@ -38,6 +37,11 @@
     background: #1390e2;
     padding: 0.5em 1em;
 }
+
+.header-row:last-of-type{
+    position: relative;
+    padding: 1em 2em;
+}
 .header-row .header-text{
     margin: auto;
     font-size: clamp(12px, 0.1rem + 2vw, 16px);
@@ -45,7 +49,6 @@
     font-family: var(--ff-primary-);
 }
 .logo-link{
-    
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
