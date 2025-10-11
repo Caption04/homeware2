@@ -36,6 +36,7 @@
 .header-row:first-of-type{
     background: #1390e2;
     padding: 0.5em 1em;
+    border-bottom-color: blue;
 }
 
 .header-row:last-of-type{
