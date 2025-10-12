@@ -114,11 +114,14 @@
 .data-container{
     width: 100%;
     display: flex;
+    padding: 1em 2em;
+    align-items: center;
 }
 .data-container h3{
     font-family: var(--ff-secondary-);
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto;
 }
 .arrow{
     background: none;
@@ -129,4 +132,5 @@
     height: 26px;
     stroke: #000;
     stroke-width: 1;
+    /* transform: rotateZ() */
 }
