@@ -109,4 +109,24 @@
     width: 100%;
     background: #1390e2;
     border-bottom: 1px solid #000;
+    display: flex;
+}
+.data-container{
+    width: 100%;
+    display: flex;
+}
+.data-container h3{
+    font-family: var(--ff-secondary-);
+    font-weight: 700;
+    font-size: 18px;
+}
+.arrow{
+    background: none;
+    border-style: none;
+}
+.arrow-btn{
+    width: 26px;
+    height: 26px;
+    stroke: #000;
+    stroke-width: 1;
 }
