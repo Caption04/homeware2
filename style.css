@@ -101,4 +101,12 @@
     height: 100vh;
 }
 
-.footer{}
+.footer{
+    width: 100%; 
+    
+}
+.footer-row{
+    width: 100%;
+    background: #1390e2;
+    border-bottom: 1px solid #000;
+}
