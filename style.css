@@ -160,6 +160,9 @@ Hero Section
     padding: 1em 2em;
     align-items: center;
 }
+.data-container:hover{
+    cursor: pointer;
+}
 .data-container h3{
     font-family: var(--ff-secondary-);
     font-weight: 500;
@@ -189,4 +192,5 @@ Hero Section
     font-family: var(--ff-secondary-);
     font-size: 12px;
     font-weight: 300;
+    text-align: center;
 }
