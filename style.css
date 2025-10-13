@@ -108,6 +108,9 @@ Hero Section
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tagline{
@@ -115,7 +118,8 @@ Hero Section
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    text-align: center
+    text-align: center;
+    margin-top: 10em;
 }
 .subtag{
     font-family: var(--ff-secondary-);
@@ -123,6 +127,7 @@ Hero Section
     font-weight: 400;
     color: #fff;
     text-align: center;
+    margin-top: 1em;
 }
 .hero-btn{
     background: #fff;
@@ -131,7 +136,8 @@ Hero Section
     font-family: var(--ff-secondary-);
     font-size: 12px;
     font-weight: bold;
-    margin: auto;
+    padding: 0.4em 0.8em;
+    margin-top: 1em;
 }
 
 .footer{
