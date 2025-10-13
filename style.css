@@ -101,15 +101,34 @@
     display: flex;
     flex-direction: column;
     padding: 1em 0.5em;
+    background: #000;
 }
 .side-menu-row-one .close-menu-btn{
     margin-left: auto;
 }
-.side-menu-row-two{
 
+.close-menu-btn-icon{
+    width: 26px;
+    height: 26px;
+    stroke: #000;
+    stroke-width: 1;
+}
+.side-menu-row-two{
+    width: 100%;
+}
+.side-menu-row-two ul{
+    display: flex;
+    flex-direction: column;
+}
+.side-menu-row-two ul li{
+    padding: 2em 0em;
+}
+.side-menu-row-two ul li a{
+    text-decoration: none;
+    color: #fff;
 }
 .side-menu-row-three{
-
+    width: 100%;
 }
 .content{
     width: 100%;
