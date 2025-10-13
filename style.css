@@ -132,5 +132,5 @@
     height: 26px;
     stroke: #000;
     stroke-width: 1;
-    /* transform: rotateZ() */
+    transform: rotate(180deg)
 }
