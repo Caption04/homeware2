@@ -99,7 +99,6 @@
     top: 0;
     width: 80vw;
     min-width: 250px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 3em 2em;
@@ -142,6 +141,19 @@
 }
 .side-menu-row-three{
     width: 100%;
+    margin-bottom: 4em;
+}
+.sidebar-social-links{
+    display: flex;
+    padding: 1em 2em;
+}
+.sidebar-instagram-icon{
+    width: 26px;
+    height: 26px;    
+}
+.sidebar-facebook-icon{
+     width: 26px;
+    height: 26px;   
 }
 .content{
     width: 100%;
