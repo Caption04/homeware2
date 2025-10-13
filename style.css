@@ -106,19 +106,21 @@
     background: #000;
 }
 .side-menu-row-one{
+    display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 .side-menu-row-one .close-menu-btn{
     margin-left: auto;
     background: none;
+    border-style: none;
 }
 
 .close-menu-btn-icon{
     width: 26px;
     height: 26px;
     stroke: #fff;
-    stroke-width: 1;
+    stroke-width: 2;
 }
 .side-menu-row-two{
     width: 100%;
