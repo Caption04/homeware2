@@ -114,13 +114,15 @@ Hero Section
     font-family: var(--ff-primary-);
     font-size: 20px;
     font-weight: bold;
-    color: #fff
+    color: #fff;
+    text-align: center
 }
 .subtag{
     font-family: var(--ff-secondary-);
     font-size: 14px;
     font-weight: 400;
     color: #fff;
+    text-align: center;
 }
 .hero-btn{
     background: #fff;
@@ -129,6 +131,7 @@ Hero Section
     font-family: var(--ff-secondary-);
     font-size: 12px;
     font-weight: bold;
+    margin: auto;
 }
 
 .footer{
