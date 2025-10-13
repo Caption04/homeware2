@@ -188,11 +188,14 @@ Hero Section
 
 .footer-row:last-of-type{
     padding: 0.3em 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .copyright{
     font-family: var(--ff-secondary-);
     font-size: 12px;
     font-weight: 300;
-    text-align: center;
+    text-align: center important;
     color: #fff;
 }
