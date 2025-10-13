@@ -143,6 +143,52 @@ Hero Section
     margin-bottom: 4em;
 }
 
+/* 
+==================
+Featured Section
+==================
+*/
+.feature-header{
+    text-align: center;
+    font-family: var(--ff-primary-);
+    font-size: 25px;
+    font-weight: bold;
+    background: #fff;
+    padding: 1em 2em;
+}
+.featured-section{
+    width: 100%;
+}
+.featured-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+.featured-image-container{
+    width: 100%;
+    overflow: hidden;
+}
+.featured-image-container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.featured-text{
+    width: 100%;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.featured-text-heading{
+    font-family: var(--ff-primary-);
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
 .footer{
     width: 100%; 
     
@@ -187,7 +233,7 @@ Hero Section
 }
 
 .footer-row:last-of-type{
-    padding: 0.3em 0.6em;
+    padding: 0.5em 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,6 +242,6 @@ Hero Section
     font-family: var(--ff-secondary-);
     font-size: 12px;
     font-weight: 300;
-    text-align: center important;
+    text-align: center;
     color: #fff;
 }
