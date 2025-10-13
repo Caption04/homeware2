@@ -145,15 +145,15 @@
 }
 .sidebar-social-links{
     display: flex;
-    padding: 1em 2em;
+    padding: 2em 2em;
 }
 .sidebar-instagram-icon{
-    width: 26px;
-    height: 26px;    
+    width: 32px;
+    height: 32px;    
 }
 .sidebar-facebook-icon{
-     width: 26px;
-    height: 26px;   
+     width: 32px;
+    height: 32px;   
 }
 .content{
     width: 100%;
