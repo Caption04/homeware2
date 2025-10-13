@@ -112,6 +112,7 @@
     display: flex;
 }
 .data-container{
+    position: relative;
     width: 100%;
     display: flex;
     padding: 1em 2em;
@@ -121,11 +122,14 @@
     font-family: var(--ff-secondary-);
     font-weight: 500;
     font-size: 16px;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .arrow{
     background: none;
     border-style: none;
+    margin-left: auto;
 }
 .arrow-btn{
     width: 26px;
