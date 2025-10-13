@@ -95,16 +95,23 @@
 }
 
 .side-menu{
+    position: absolute;
+    top: 0;
     width: 80vw;
     min-width: 250px;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 1em 0.5em;
+    padding: 1em 2em;
     background: #000;
+}
+.side-menu-row-one{
+    align-items: center;
+    justify-content: flex-end;
 }
 .side-menu-row-one .close-menu-btn{
     margin-left: auto;
+    background: none;
 }
 
 .close-menu-btn-icon{
@@ -115,6 +122,7 @@
 }
 .side-menu-row-two{
     width: 100%;
+    display: flex; 
 }
 .side-menu-row-two ul{
     display: flex;
@@ -122,6 +130,7 @@
 }
 .side-menu-row-two ul li{
     padding: 2em 0em;
+    border-bottom: 1px solid #fff;
 }
 .side-menu-row-two ul li a{
     text-decoration: none;
