@@ -94,6 +94,17 @@
     margin-right: auto;
 }
 
+.side-menu{
+    width: 80vw;
+    min-width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.side-menu-row-one{
+
+}
+
 .content{
     width: 100%;
 }
@@ -185,7 +196,7 @@ Featured Section
 .featured-text-heading{
     font-family: var(--ff-primary-);
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 300;
     color: #000;
 }
 
