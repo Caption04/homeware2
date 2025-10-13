@@ -129,6 +129,8 @@
 .side-menu-row-two ul{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    list-style-type: none;
 }
 .side-menu-row-two ul li{
     padding: 2em 0em;
