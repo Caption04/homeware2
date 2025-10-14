@@ -10,6 +10,7 @@ openMenu.addEventListener("click", () => {
     overlay.classList.add("open");
     sideMenu.classList.add("open");
     setInterval(() => {
+        sideMenu.style.background = "red";
         sidebarData.forEach(data => {
             data.classList.add("side-bar-animation");
         })
