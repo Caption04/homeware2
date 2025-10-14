@@ -48,5 +48,8 @@ dataContainer.forEach(container => {
         const footerRow = container.closest(".footer-row");
         const inputBox = footerRow.querySelector(".input-box");
         const arrow = container.querySelector(".arrow-btn");
+
+        inputBox.classList.toggle("active");
+        arrow.classList.toggle("open");
     })
 })
