@@ -24,7 +24,7 @@ openMenu.addEventListener("click", () => {
     document.documentElement.style.overflow = 'hidden';
     overlay.classList.add("open");
     sideMenu.classList.add("open");
-    sideMenu.style.background = "red";
+    // sideMenu.style.background = "red";
     sidebarData.forEach(data => {
         data.classList.add("side-bar-animation");
     })
@@ -35,7 +35,7 @@ closeMenu.addEventListener("click", () => {
     document.documentElement.style.overflow = 'auto';
     overlay.classList.remove("open");
     sideMenu.classList.remove("open");
-    sideMenu.style.background = "black";
+    // sideMenu.style.background = "black";
     sidebarData.forEach(data => {
         data.classList.remove("side-bar-animation");
     })

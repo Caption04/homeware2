@@ -250,7 +250,7 @@ Featured Section
 .featured-section{
     width: 100%;
     visibility: hidden;
-    transform: translateY(30%);
+    transform: translateY(10%);
     transition: all 1s ease-in-out;
 }
 .featured-section.animation{
