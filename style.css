@@ -124,12 +124,9 @@
     transform: translateX(0%);
 }
 .side-menu-row-one{
-    transform: translateY(20%);
-    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    transition: all 0.3s ease-in-out;
 }
 .side-menu-row-one .close-menu-btn{
     margin-left: auto;
@@ -144,11 +141,8 @@
     stroke-width: 2;
 }
 .side-menu-row-two{
-    transform: translateY(20%);
-    visibility: hidden;
     width: 100%;
     display: flex; 
-    transition: all 0.3s ease-in-out;
 }
 .side-menu-row-two ul{
     display: flex;
@@ -165,11 +159,8 @@
     color: #fff;
 }
 .side-menu-row-three{
-    transform: translateY(20%);
-    visibility: hidden;
     width: 100%;
     margin-bottom: 4em;
-    transition: all 0.3s ease-in-out;
 }
 .sidebar-social-links{
     display: flex;
@@ -184,10 +175,16 @@
      width: 40px;
     height: 40px;   
 }
-.side-bar-animation{
+.animation{
+    transform: translateY(0%);
+    visibility: hidden;
+    transform: translateY(-30%);
+}
+.animation.side-bar-animation{
     transform: translateY(0%);
     visibility: visible;
 }
+
 .content{
     width: 100%;
 }
