@@ -345,7 +345,7 @@ Featured Section
     transition: all 1s ease-in-out;
 }
 .input-box.active{
-    max-height: 200px;
+    max-height: 200px !important;
     padding: 1em 2em;
 }
 .footer-row:last-of-type{
