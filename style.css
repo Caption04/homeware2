@@ -251,6 +251,7 @@ Featured Section
     width: 100%;
     visibility: hidden;
     transform: translateY(30%);
+    transition: all 1s ease-in-out;
 }
 .featured-section.animation{
     visibility: visible;
@@ -336,6 +337,7 @@ Featured Section
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 0;
 }
 .footer-row:last-of-type{
     padding: 2em 1em;
