@@ -280,6 +280,7 @@ Featured Section
     background: #000;
     border-bottom: 1px solid #fff;
     display: flex;
+    flex-direction: column;
 }
 .data-container{
     position: relative;
@@ -315,6 +316,7 @@ Featured Section
 .input-box{
     padding: 1em 2em;
     width: 100%;
+    background: #fff;
 }
 .footer-row:last-of-type{
     padding: 2em 1em;
