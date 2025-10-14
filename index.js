@@ -9,9 +9,12 @@ openMenu.addEventListener("click", () => {
     document.documentElement.style.overflow = 'hidden';
     overlay.classList.add("open");
     sideMenu.classList.add("open");
-    sidebarData.forEach(data => {
-        data.classList.add("side-bar-animation");
-    })
+    setInterval(() => {
+        sidebarData.forEach(data => {
+            data.classList.add("side-bar-animation");
+        })
+    }, 1000);
+
 })
 
 closeMenu.addEventListener("click", () => {
