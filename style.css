@@ -250,11 +250,13 @@ Featured Section
 .featured-section{
     width: 100%;
     opacity: 0;
+    visibility: hidden;
     transform: translateY(10%);
     transition: all 1s ease-in-out;
 }
 .featured-section.animation{
     opacity: 1;
+    visibility: visible;
     transform: translateY(0%);
 }
 .featured-items{
