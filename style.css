@@ -117,11 +117,13 @@
     padding: 3em 2em;
     background: #000;
     transform: translateX(-100%);
+    visibility: hidden;
     transition: all 1s ease-in-out;
     z-index: 100;
 }
 .side-menu.open{
     transform: translateX(0%);
+    visibility: visible;
 }
 .side-menu-row-one{
     display: flex;
