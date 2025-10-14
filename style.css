@@ -110,7 +110,7 @@
     position: absolute;
     top: 0;
     width: 80vw;
-    min-height: 100vh;
+    max-height: 100vh;
     min-width: 250px;
     display: flex;
     flex-direction: column;
@@ -312,7 +312,10 @@ Featured Section
     stroke-width: 1;
     transform: rotate(180deg)
 }
-
+.input-box{
+    padding: 1em 2em;
+    width: 100%;
+}
 .footer-row:last-of-type{
     padding: 2em 1em;
     display: flex;
