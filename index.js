@@ -42,9 +42,10 @@ closeMenu.addEventListener("click", () => {
 })
 
 // Footer animation
-const dataContainer = document.querySelectorAll("data-container");
+const dataContainer = document.querySelectorAll(".data-container");
 dataContainer.forEach(container => {
     container.addEventListener("click", () => {
+        
         const footerRow = container.closest(".footer-row");
         const inputBox = footerRow.querySelector(".input-box");
         const arrow = container.querySelector(".arrow-btn");
