@@ -249,12 +249,12 @@ Featured Section
 }
 .featured-section{
     width: 100%;
-    visibility: hidden;
+    opacity: o;
     transform: translateY(10%);
-    transition: transform 1s ease-in-out visibility 3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .featured-section.animation{
-    visibility: visible;
+    opacity: 1;
     transform: translateY(0%);
 }
 .featured-items{
