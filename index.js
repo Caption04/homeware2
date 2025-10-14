@@ -5,7 +5,7 @@ window.addEventListener('scroll', checkTop);
 function checkTop(){
     featuredSection.forEach(section => {
         const rect = section.getBoundingClientRect();
-        if(rect.top >= 0 && rect.top <= window.innerHeight){
+        if(rect.top >= 0 && rect.top <= window.innerHeight && !section.classList.contains("animation")){
             section.classList.add("animation");            
         }
     })
